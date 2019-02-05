@@ -28,7 +28,7 @@ public class Solution_145_BinaryTreePostorderTraversal {
     }
 
     /**
-     * 迭代，后序遍历是左右根，可以利用前序遍历得到根右左，再通过栈逆序可得结果。
+     * 迭代，后序遍历是左右根，可以利用前序遍历(LeetCode 144)得到根右左，再通过栈逆序可得结果。
      */
     public List<Integer> postorderTraversal(TreeNode root) {
         LinkedList<Integer> res = new LinkedList<>();
