@@ -6,9 +6,9 @@ package com.chen.leetcode.algorithm.medium;
  * 示例:
  * 输入:
  * [
- *   [1,3,1],
- *   [1,5,1],
- *   [4,2,1]
+ * [1,3,1],
+ * [1,5,1],
+ * [4,2,1]
  * ]
  * 输出: 7
  * 解释: 因为路径 1→3→1→1→1 的总和最小。
@@ -39,4 +39,21 @@ public class Solution_064_MinimumPathSum {
         }
         return dp[col - 1];
     }
+
+    /**
+     * 记忆化搜素
+     */
+    /*public int minPathSum(int[][] grid) {
+        if (grid == null || (grid.length) == 0 || (grid[0].length) == 0) return 0;
+        return dfs(grid, new int[grid.length][grid[0].length], 0, 0);
+    }
+
+    private int dfs(int[][] grid, int[][] mem, int i, int j) {
+        if (i == grid.length || j == grid[0].length) return Integer.MAX_VALUE;
+        if (i == grid.length - 1 && j == grid[0].length - 1) return grid[i][j];
+        if (mem[i][j] == 0) {
+            mem[i][j] = Math.min(dfs(grid, mem, i + 1, j), dfs(grid, mem, i, j + 1)) + grid[i][j];
+        }
+        return mem[i][j];
+    }*/
 }
