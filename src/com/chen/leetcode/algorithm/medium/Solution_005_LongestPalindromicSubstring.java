@@ -25,7 +25,7 @@ public class Solution_005_LongestPalindromicSubstring {
         while (right < s.length() - 1 && s.charAt(right + 1) == s.charAt(left)) {
             right++;
         }
-        int res = right;
+        int next = right;
         while (left >= 0 && right < s.length() && s.charAt(left) == s.charAt(right)) {
             left--;
             right++;
@@ -34,6 +34,6 @@ public class Solution_005_LongestPalindromicSubstring {
             range[1] = right;
             range[0] = left + 1;
         }
-        return res;
+        return next;
     }
 }
