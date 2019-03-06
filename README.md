@@ -54,7 +54,7 @@
 | 172  | [阶乘后的零](https://leetcode-cn.com/problems/factorial-trailing-zeroes) | [Java](https://github.com/AppBanChe/LeetCodeSolution/blob/master/src/com/chen/leetcode/algorithm/easy/Solution_172_FactorialTrailingZeroes.java)  |
 | 189  | [旋转数组](https://leetcode-cn.com/problems/rotate-array)    | [Java](https://github.com/AppBanChe/LeetCodeSolution/blob/master/src/com/chen/leetcode/algorithm/easy/Solution_189_RotateArray.java)         |
 | 190  | [颠倒二进制位](https://leetcode-cn.com/problems/reverse-bits) | [Java](https://github.com/AppBanChe/LeetCodeSolution/blob/master/src/com/chen/leetcode/algorithm/easy/Solution_190_ReverseBits.java)         |
-| 191  | [位1的个数](https://leetcode-cn.com/problems/number-of-1-bits) | https://github.com/AppBanChe/LeetCodeSolution/blob/master/src/com/chen/leetcode/algorithm/easy/Solution_191_NumberOf1Bits.java         |
+| 191  | [位1的个数](https://leetcode-cn.com/problems/number-of-1-bits) | [java](https://github.com/AppBanChe/LeetCodeSolution/blob/master/src/com/chen/leetcode/algorithm/easy/Solution_191_NumberOf1Bits.java)        |
 | 198  | [打家劫舍](https://leetcode-cn.com/problems/house-robber)    | [Java](https://github.com/AppBanChe/LeetCodeSolution/blob/master/src/com/chen/leetcode/algorithm/easy/Solution_198_HouseRobber.java)         |
 | 202  | [快乐数](https://leetcode-cn.com/problems/happy-number)      | [Java](https://github.com/AppBanChe/LeetCodeSolution/blob/master/src/com/chen/leetcode/algorithm/easy/Solution_202_HappyNumber.java)         |
 | 203  | [移除链表元素](https://leetcode-cn.com/problems/remove-linked-list-elements) | [Java](https://github.com/AppBanChe/LeetCodeSolution/blob/master/src/com/chen/leetcode/algorithm/easy/Solution_203_RemoveLinkedListElements.java)         |
