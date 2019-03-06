@@ -40,9 +40,9 @@ public class Solution_028_ImplementstrStr {
     }
 
 
-/**
- * 抖机灵
- */
+    /**
+     * 抖机灵
+     */
     /*public int strStr(String haystack, String needle) {
         return haystack.indexOf(needle);
     }*/
